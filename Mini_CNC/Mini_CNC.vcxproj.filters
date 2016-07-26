@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="DEC">
+      <UniqueIdentifier>{ad326b4c-a280-4a0f-a7af-94b9f2d6e731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEC\SRC">
+      <UniqueIdentifier>{b830c025-6b47-457c-8e90-ccb00eb07b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEC\INC">
+      <UniqueIdentifier>{b3adc897-45ad-430c-8422-b80ee628e7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INTP">
+      <UniqueIdentifier>{4fe5fe3b-414f-49dc-b85a-bb97cdea00ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INTP\INC">
+      <UniqueIdentifier>{d98bd119-3e31-4c04-8db0-b2d93d8169a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INTP\SRC">
+      <UniqueIdentifier>{0fddd081-3e61-460d-8305-6c2cab0e02fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMI">
+      <UniqueIdentifier>{e6593821-a912-480e-b55a-f165edf31ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMI\INC">
+      <UniqueIdentifier>{eef2f033-0d27-456b-af70-34a426576725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMI\SRC">
+      <UniqueIdentifier>{996abb1a-cab0-42aa-8211-62177dc856df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SYS">
+      <UniqueIdentifier>{257e4de4-798d-41ad-8045-98e3c7ee1750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SYS\INC">
+      <UniqueIdentifier>{84a864a8-5156-4af6-8c65-19dc4375ea2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SYS\SRC">
+      <UniqueIdentifier>{c559ca86-0775-4d3f-9730-3a8ac72e8abd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LINK">
+      <UniqueIdentifier>{067daff4-601d-46b5-973d-41eac6ed56b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LINK\SRC">
+      <UniqueIdentifier>{f25c5781-7755-434c-8577-6368af6ba7a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LINK\INC">
+      <UniqueIdentifier>{0d282afc-6449-4e26-9b78-8efec6e4978c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNC">
+      <UniqueIdentifier>{49723d5a-6908-4abf-b4c9-8266363ba172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNC\INC">
+      <UniqueIdentifier>{fb9fe34e-58c8-4b58-8a54-25d9f7555588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNC\SRC">
+      <UniqueIdentifier>{a6ac65f7-5c46-4b7b-9bf0-a67d42d2f651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DRV">
+      <UniqueIdentifier>{7cae5fee-f2f4-4da0-8b6d-32aff2e598a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DRV\INC">
+      <UniqueIdentifier>{58ed8d14-e278-4fc7-9bfb-e6036de03f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TEACH">
+      <UniqueIdentifier>{92700273-177f-4bc7-a68c-757d68446129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TEACH\INC">
+      <UniqueIdentifier>{f90feb98-b0a8-4fa4-bf09-6e8df4e89b8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TEACH\SRC">
+      <UniqueIdentifier>{db3c9702-c996-453c-adf6-e828a9e49a4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Mini_CNC.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DEC\SRC\decCtl.cpp">
+      <Filter>DEC\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="DEC\SRC\decMain.cpp">
+      <Filter>DEC\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="INTP\SRC\intpCtl.cpp">
+      <Filter>INTP\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="INTP\SRC\intpMain.cpp">
+      <Filter>INTP\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="MMI\SRC\mmiCtl.cpp">
+      <Filter>MMI\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="MMI\SRC\mmiMain.cpp">
+      <Filter>MMI\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="SYS\SRC\sysCtl.cpp">
+      <Filter>SYS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="SYS\SRC\sysMain.cpp">
+      <Filter>SYS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="LINK\SRC\linkCtl.cpp">
+      <Filter>LINK\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="CNC\SRC\cncMain.cpp">
+      <Filter>CNC\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="INTP\SRC\slope.cpp">
+      <Filter>INTP\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="TEACH\SRC\TEACH.cpp">
+      <Filter>TEACH\SRC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Form1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Variables.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DEC\INC\dec.h">
+      <Filter>DEC\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="INTP\INC\intp.h">
+      <Filter>INTP\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="MMI\INC\mmi.h">
+      <Filter>MMI\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="SYS\INC\sys.h">
+      <Filter>SYS\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="LINK\INC\link.h">
+      <Filter>LINK\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="CNC\INC\cnc.h">
+      <Filter>CNC\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="DRV\INC\MEPCIODEV.H">
+      <Filter>DRV\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="DRV\INC\MEPCIOINI.H">
+      <Filter>DRV\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="DRV\INC\stepMotorDRV.h">
+      <Filter>DRV\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="DRV\INC\CP_SWITCH.h">
+      <Filter>DRV\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="TEACH\INC\TEACH.h">
+      <Filter>TEACH\INC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.ico">
+      <Filter>資源檔</Filter>
+    </None>
+    <None Include="..\logo.jpg">
+      <Filter>資源檔</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>資源檔</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resX">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
